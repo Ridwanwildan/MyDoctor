@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <title>MyDoctor</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-main py-3">
+      <div class="container-fluid mx-lg-5">
+        <a class="navbar-brand" href="#">
+          <div class="poppins-bold font-color-second fs-4">MyDoctor</div>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">
+                <div
+                  class="poppins-regular font-color-main text-center text-lg-start py-1 py-sm-0"
+                >
+                  Home
+                </div>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <div
+                  class="poppins-regular font-color-main text-center text-lg-start py-1 py-sm-0"
+                >
+                  Services
+                </div>
+              </a>
+            </li>
+          </ul>
+          <form class="d-none d-md-flex">
+            <button class="button-custom bg-second me-2" type="submit">
+              Login
+            </button>
+            <button class="button-custom bg-second" type="submit">
+              Sign Up
+            </button>
+          </form>
+          <!-- Button for mobile view-->
+          <form class="d-block d-md-none">
+            <button class="button-custom bg-second mb-2" type="submit">
+              Login
+            </button>
+            <button class="button-custom bg-second" type="submit">
+              Sign Up
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <div class="row bg-third">
+      <div class="col-8 p-0">
+        <img src="assets/as.png" class="img-fluid img-custom" alt="" />
+      </div>
+      <div class="col-4 px-4 d-flex align-items-center">
+        <div class="d-block">
+          <div class="poppins-light text-center fs-5 font-color-main">
+            Great solution to consult about your health. start with hundreds of
+            experienced doctors in their expertise to provide the right
+            solution.
+          </div>
+          <div class="d-flex justify-content-center">
+            <button class="button-custom bg-second mt-4" type="submit">
+              Start Now
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
